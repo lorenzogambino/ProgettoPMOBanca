@@ -4,9 +4,10 @@
 
 Banca
 
-Software C# che permette di visualizzare, creare e fare operazioni su conti bancari è possibile creare due tipi di conti:
+Software C# che permette di visualizzare, creare e fare operazioni su conti bancari
+E' possibile creare due tipi di conti:
 
-Conto a consumo, si paga 1 € per ogni operazione
+Conto a consumo, si paga una commissione di 1€ per ogni operazione
 
 Conto con franchigia paghi un canone annuo o mensile, che a sua volta si divide in :
 Young (Zero spese mensili e cinque operazioni al mese)
