@@ -28,7 +28,7 @@ namespace BancaPMo
         {
             lvConti.ItemsSource = null;
             lvConti.ItemsSource = Conti;
-            Conti.Writer("Conti.csv");
+            Conti.Writer(@"..\Debug\Conti.csv");
         }
         public MainWindow()
         {
@@ -39,7 +39,7 @@ namespace BancaPMo
         {
             try
             {
-                Conti = new ContiCSV("Conti.csv");
+                Conti = new ContiCSV(@"..\Debug\Conti.csv");
                 UpdateLv();
 
             }
