@@ -1,0 +1,16 @@
+C:\Users\Lorenzo\source\repos\BancaPMo\bin\Debug\BancaPMo.exe.config
+C:\Users\Lorenzo\source\repos\BancaPMo\bin\Debug\BancaPMo.exe
+C:\Users\Lorenzo\source\repos\BancaPMo\bin\Debug\BancaPMo.pdb
+C:\Users\Lorenzo\source\repos\BancaPMo\obj\Debug\BancaPMo.csprojAssemblyReference.cache
+C:\Users\Lorenzo\source\repos\BancaPMo\obj\Debug\MainWindow.g.cs
+C:\Users\Lorenzo\source\repos\BancaPMo\obj\Debug\App.g.cs
+C:\Users\Lorenzo\source\repos\BancaPMo\obj\Debug\BancaPMo_MarkupCompile.cache
+C:\Users\Lorenzo\source\repos\BancaPMo\obj\Debug\BancaPMo_MarkupCompile.lref
+C:\Users\Lorenzo\source\repos\BancaPMo\obj\Debug\MainWindow.baml
+C:\Users\Lorenzo\source\repos\BancaPMo\obj\Debug\BancaPMo.g.resources
+C:\Users\Lorenzo\source\repos\BancaPMo\obj\Debug\BancaPMo.Properties.Resources.resources
+C:\Users\Lorenzo\source\repos\BancaPMo\obj\Debug\BancaPMo.csproj.GenerateResource.cache
+C:\Users\Lorenzo\source\repos\BancaPMo\obj\Debug\BancaPMo.csproj.CoreCompileInputs.cache
+C:\Users\Lorenzo\source\repos\BancaPMo\obj\Debug\BancaPMo.exe
+C:\Users\Lorenzo\source\repos\BancaPMo\obj\Debug\BancaPMo.pdb
+C:\Users\Lorenzo\source\repos\BancaPMo\bin\Debug\App.xaml.cs
