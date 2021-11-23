@@ -176,7 +176,7 @@ namespace BancaPMo
         }
         private void ControlloNumeri(KeyEventArgs e)
         {
-            //permette lettere spazi
+            //permette numeri e virgole
             bool isNumber = e.Key >= Key.D0 && e.Key <= Key.D9 || e.Key >= Key.NumPad0 && e.Key <= Key.NumPad9;
             bool isBack = e.Key == Key.Back;
             bool isComma = e.Key == Key.OemComma;
