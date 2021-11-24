@@ -156,7 +156,7 @@ namespace BancaPMo
                 outEsito1.Text = outEsito2.Text = outEsito3.Text = outEsito4.Text = outSaldo1.Text = outSaldo2.Text = txtDestinatario.Text = txtImporto1.Text=txtImporto2.Text=txtImporto3.Text=txtIntestatario.Text = outSaldo3.Text = ""; //pulisce tutte i dati inseriti
             }
         }
-        private void AttivaSchedeOperazioni() 
+        private void AttivaSchedeOperazioni()
         {
             TabBonifico.IsEnabled = true;
             TabVersamento.IsEnabled = true;
@@ -176,7 +176,7 @@ namespace BancaPMo
         }
         private void ControlloNumeri(KeyEventArgs e)
         {
-            //permette numeri e virgola
+            //permette numeri e virgole
             bool isNumber = e.Key >= Key.D0 && e.Key <= Key.D9 || e.Key >= Key.NumPad0 && e.Key <= Key.NumPad9;
             bool isBack = e.Key == Key.Back;
             bool isComma = e.Key == Key.OemComma;
