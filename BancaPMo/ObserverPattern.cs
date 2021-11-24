@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace BancaPMo
 {
-    /// <summary>
-    /// The 'Subject' abstract class
-    /// </summary>
+    // The 'Subject' abstract class
     abstract class SpeseMensili // spese mensili
     {
         private List<ContoAFranchigia> ListaContiF = new List<ContoAFranchigia>(); //lista dei conti
@@ -38,12 +36,11 @@ namespace BancaPMo
             }
         }
 
-        /// <summary>
-        /// The 'ConcreteSubject' class
-        /// </summary>
         
     }
-     class SpesaMensile : SpeseMensili
+
+    // The 'ConcreteSubject' class
+    class SpesaMensile : SpeseMensili
     {
         public SpesaMensile()// costruttore
         {

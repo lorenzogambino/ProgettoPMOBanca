@@ -44,9 +44,10 @@
                 <TextBox x:Name="txtImporto1" HorizontalAlignment="Left" Height="26" TextWrapping="Wrap" VerticalAlignment="Top" Width="75" Margin="147,19,0,0" TextAlignment="Right" KeyDown="txtImporto1_KeyDown"/>
                 <Button x:Name="btnVersamento" Content="Conferma" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top" Width="228" Click="BtnVersamento_Click" Height="22"/>
                 <TextBlock x:Name="outEsito1" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="10,95,0,0"/>
-                <TextBlock x:Name="outSaldo1" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="10,115,0,0"/>
+                <TextBlock x:Name="outSaldo1" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="80,115,0,0"/>
                 <Label Content="Scrivi qui l'importo &#xD;&#xA;da versare" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
                 <Label Content="€" HorizontalAlignment="Left" Margin="219,15,0,0" VerticalAlignment="Top" RenderTransformOrigin="3.312,0.231" Height="33" FontSize="16"/>
+                <Label Content="Il saldo è  €" HorizontalAlignment="Left" Margin="5,110,0,0" VerticalAlignment="Top" Width="70"/>
             </Grid>
         </TabItem>
         <TabItem x:Name="TabPrelievo" Header="Prelievo" IsEnabled="False" Height="22" VerticalAlignment="Bottom">
@@ -54,7 +55,8 @@
                 <TextBox x:Name="txtImporto2" HorizontalAlignment="Left" Height="25" TextWrapping="Wrap" VerticalAlignment="Top" Width="92" Margin="133,20,0,0" TextAlignment="Right" KeyDown="txtImporto2_KeyDown"/>
                 <Button x:Name="btnPrelievo" Content="Conferma" HorizontalAlignment="Left" Margin="13,60,0,0" VerticalAlignment="Top" Width="219" Click="BtnPrelievo_Click" Height="22" />
                 <TextBlock x:Name="outEsito2" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="10,95,0,0"/>
-                <TextBlock x:Name="outSaldo2" HorizontalAlignment="Left" Margin="10,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                <Label Content="Il saldo è  €" HorizontalAlignment="Left" Margin="5,110,0,0" VerticalAlignment="Top" Width="70"/>
+                <TextBlock x:Name="outSaldo2" HorizontalAlignment="Left" Margin="80,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
                 <Label Content="Scrivi qui l'importo &#xD;&#xA;da prelevare" HorizontalAlignment="Left" Margin="10,12,0,0" VerticalAlignment="Top"/>
                 <Label Content="€" HorizontalAlignment="Left" Margin="224,18,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.562,0.462" FontSize="16"/>
             </Grid>
@@ -63,7 +65,8 @@
             <Grid>
                 <TextBox x:Name="txtImporto3" HorizontalAlignment="Left" Height="22" TextWrapping="Wrap" VerticalAlignment="Top" Width="52" Margin="66,19,0,0" TextAlignment="Right" KeyDown="txtImporto3_KeyDown"/>
                 <Button x:Name="btnBonifico" Content="Conferma" HorizontalAlignment="Left" Margin="66,55,0,0" VerticalAlignment="Top" Width="427" Click="BtnBonifico_Click" Height="27"/>
-                <TextBlock x:Name="outSaldo3" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="10,115,0,0"/>
+                <Label Content="Il saldo è  €" HorizontalAlignment="Left" Margin="5,110,0,0" VerticalAlignment="Top" Width="70"/>
+                <TextBlock x:Name="outSaldo3" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="80,115,0,0"/>
                 <TextBox x:Name="txtDestinatario" HorizontalAlignment="Left" Height="40" TextWrapping="Wrap" VerticalAlignment="Top" Width="175" Margin="318,10,0,0"/>
                 <TextBlock x:Name="outEsito3" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="10,95,0,0"/>
                 <Label Content="Importo &#xD;&#xA;bonifico" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.289,0.462"/>

@@ -58,30 +58,25 @@ namespace BancaPMo
                 Conto c;
                 string riga = sr.ReadLine();
                 ContoCSV contox = new ContoCSV(riga);
-                //Operazione o = new Operazione("Creazione Conto", 0, DateTime.Now.ToShortDateString() + "-" + DateTime.Now.ToShortTimeString());
                 switch (contox.tipo) // crea il conto in base al tipo
                 {
                     case "Conto a Consumo":
                         c = new ContoAConsumo(contox.proprietario, contox.tipo, contox.iban, Convert.ToDouble(contox.saldo), contox.listaoperazioni);
-                        //c.ListaOperazioni.Add(o);
                         Add(c);
                         break;
                     case "Conto Young":
                         c = new ContoYoung(contox.proprietario, contox.tipo, contox.iban, Convert.ToDouble(contox.saldo), false, contox.listaoperazioni,contox.numuoperazioni);
-                        //c.ListaOperazioni.Add(o);
                         Add(c);
                         spesaMensile.Attach((ContoAFranchigia)c); //aggiunge il conto a franchigia alla lista dei conti a franchigia da notificare ogni mese (observer pattern)
 
                         break;
                     case "Conto Standard":
                         c = new ContoStandard(contox.proprietario, contox.tipo, contox.iban, Convert.ToDouble(contox.saldo), false, contox.listaoperazioni, contox.numuoperazioni);
-                        //c.ListaOperazioni.Add(o);
                         Add(c);
                         spesaMensile.Attach((ContoAFranchigia)c); //aggiunge il conto a franchigia alla lista dei conti a franchigia da notificare ogni mese (observer pattern)
                         break;
                     case "Conto Business":
                         c = new ContoBusiness(contox.proprietario, contox.tipo, contox.iban, Convert.ToDouble(contox.saldo), false, contox.listaoperazioni, contox.numuoperazioni);
-                        //c.ListaOperazioni.Add(o);
                         Add(c);
                         spesaMensile.Attach((ContoAFranchigia)c); //aggiunge il conto a franchigia alla lista dei conti a franchigia da notificare ogni mese (observer pattern)
                         break;

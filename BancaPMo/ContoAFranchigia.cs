@@ -8,8 +8,8 @@ namespace BancaPMo
 {
     class ContoAFranchigia : Conto
     {
-        public int spesafissa;
-        public int maxoperazioni;
+        public int spesafissa { get; set; }
+        public int maxoperazioni { get; set; }
         public bool primaoperazione { get; set; }
 
         public override string Bonifico(ContiCSV Conti,double importo, string destinatario)

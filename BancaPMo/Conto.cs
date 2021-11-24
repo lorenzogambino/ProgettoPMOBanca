@@ -38,10 +38,12 @@ namespace BancaPMo
             set;
         }
 
-        public int numoperazioni;
+        public int numoperazioni
+        {
+            get; set;
+        }
 
-        public List<Operazione> ListaOperazioni = new List<Operazione>();
-       
+        public List<Operazione> ListaOperazioni = new List<Operazione>();       
 
         public abstract string Bonifico(ContiCSV Conti,double importo, string destinatario);
         public abstract string Prelievo(double importo);
